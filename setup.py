@@ -7,6 +7,10 @@ try:
 except ImportError:
     from distutils.core import setup
 
+import re
+import os
+import sys
+
 
 package = 'tapioca-facebook'
 readme = open('README.rst').read()
