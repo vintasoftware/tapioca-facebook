@@ -12,7 +12,7 @@ import os
 import sys
 
 
-package = 'tapioca-facebook'
+package = 'tapioca_facebook'
 readme = open('README.rst').read()
 requirements = [
     'tapioca-wrapper',
