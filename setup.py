@@ -41,7 +41,7 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='tapioca_facebook',
+    name='tapioca-facebook',
     version=get_version(package),
     description='Facebook GraphAPI wrapper using tapioca',
     long_description=readme,
@@ -49,7 +49,7 @@ setup(
     author_email='filipeximenes@gmail.com',
     url='https://github.com/filipeximenes/tapioca-facebook',
     packages=[
-        'tapioca-facebook',
+        'tapioca_facebook',
     ],
     package_dir={'tapioca_facebook':
                  'tapioca_facebook'},
