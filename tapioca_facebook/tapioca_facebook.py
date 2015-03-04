@@ -1,6 +1,7 @@
 # coding: utf-8
 
-from tapioca import (TapiocaClient, TapiocaAdapter)
+from tapioca import (
+    TapiocaAdapter, generate_wrapper_from_adapter)
 from requests_oauthlib import OAuth2
 
 from resource_mapping import RESOURCE_MAPPING
@@ -33,4 +34,4 @@ class FacebookClientAdapter(TapiocaAdapter):
             return {'url': url}
 
 
-Facebook = TapiocaClient(FacebookClientAdapter())
+Facebook = generate_wrapper_from_adapter(FacebookClientAdapter)

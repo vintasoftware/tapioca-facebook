@@ -15,8 +15,8 @@ import sys
 package = 'tapioca_facebook'
 readme = open('README.rst').read()
 requirements = [
-    'tapioca-wrapper',
-    'requests_oauthlib',
+    'tapioca-wrapper==0.2.0',
+    'requests-oauthlib==0.4.2',
 ]
 test_requirements = [
 
@@ -51,8 +51,7 @@ setup(
     packages=[
         'tapioca_facebook',
     ],
-    package_dir={'tapioca_facebook':
-                 'tapioca_facebook'},
+    package_dir={'tapioca_facebook': 'tapioca_facebook'},
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
