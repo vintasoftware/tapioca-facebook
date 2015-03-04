@@ -15,7 +15,7 @@ import sys
 package = 'tapioca_facebook'
 readme = open('README.rst').read()
 requirements = [
-    'tapioca-wrapper==0.2.0',
+    'tapioca-wrapper==0.2.1',
     'requests-oauthlib==0.4.2',
 ]
 test_requirements = [
