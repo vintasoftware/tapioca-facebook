@@ -10,8 +10,6 @@ pip install tapioca-facebook
 
 ## Documentation
 
-## Documentation
-
 ### Initializing
 
 ``` python
