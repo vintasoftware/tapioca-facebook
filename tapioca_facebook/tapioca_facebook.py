@@ -17,7 +17,8 @@ class FacebookClientAdapter(TapiocaAdapter):
             'auth': OAuth2(client_id,
                 token={
                     'access_token': api_params.get('access_token'),
-                    'token_type': 'Bearer'})
+                    'token_type': 'Bearer'}),
+            'headers': {'Content-Type': 'application/json'}
         }
 
     def get_iterator_list(self, response_data):
