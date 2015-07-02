@@ -1,17 +1,11 @@
 # Tapioca Facebook
 
-## What's Tapioca?
-
-[https://github.com/vintasoftware/tapioca-wrapper](https://github.com/vintasoftware/tapioca-wrapper)
-
 ## Instalation
-
+```
 pip install tapioca-facebook
+```
 
 ## Documentation
-
-### Initializing
-
 ``` python
 from tapioca_facebook import Facebook
 
