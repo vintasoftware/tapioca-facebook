@@ -2,7 +2,7 @@
 
 __author__ = 'Filipe Ximenes'
 __email__ = 'filipeximenes@gmail.com'
-__version__ = '0.3.0'
+__version__ = '0.3.1'
 
 
 from tapioca_facebook import Facebook
