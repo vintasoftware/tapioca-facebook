@@ -4,7 +4,7 @@ from tapioca import (
     TapiocaAdapter, generate_wrapper_from_adapter, JSONAdapterMixin)
 from requests_oauthlib import OAuth2
 
-from resource_mapping import RESOURCE_MAPPING
+from .resource_mapping import RESOURCE_MAPPING
 
 
 class FacebookClientAdapter(JSONAdapterMixin, TapiocaAdapter):
