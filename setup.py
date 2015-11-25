@@ -20,7 +20,7 @@ except (IOError, ImportError):
 
 package = 'tapioca_facebook'
 requirements = [
-    'tapioca-wrapper<=0.6',
+    'tapioca-wrapper>=1.0,<2.0',
     'requests-oauthlib==0.4.2',
 ]
 test_requirements = [
