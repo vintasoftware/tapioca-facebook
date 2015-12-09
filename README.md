@@ -14,6 +14,6 @@ api = Facebook(client_id='{your-client-id}', access_token='{any-valid-access-tok
 
 No more documentation needed.
 
-- Learn how Tapioca works [here](http://tapioca-wrapper.readthedocs.org/en/latest/quickstart/)
+- Learn how Tapioca works [here](http://tapioca-wrapper.readthedocs.org/en/stable/quickstart.html)
 - Explore this package using iPython
 - Have fun!
